@@ -146,31 +146,20 @@
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="naZ-qn-SYK">
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="YOu-sI-llL"/>
-                                                        <constraint firstAttribute="width" constant="50" id="rQc-gl-Btd"/>
-                                                    </constraints>
-                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="HUL-u7-pmW" firstAttribute="top" secondItem="xkm-n9-JoV" secondAttribute="topMargin" id="1I3-3l-Zyg"/>
-                                                <constraint firstItem="naZ-qn-SYK" firstAttribute="centerY" secondItem="HUL-u7-pmW" secondAttribute="centerY" id="NAl-3Y-9ob"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="bYC-jW-4qe" secondAttribute="trailing" id="OPJ-ep-VPg"/>
-                                                <constraint firstItem="bYC-jW-4qe" firstAttribute="leading" secondItem="xkm-n9-JoV" secondAttribute="leadingMargin" constant="10" id="RCg-yW-8Be"/>
+                                                <constraint firstItem="bYC-jW-4qe" firstAttribute="leading" secondItem="xkm-n9-JoV" secondAttribute="leadingMargin" id="RCg-yW-8Be"/>
                                                 <constraint firstItem="HUL-u7-pmW" firstAttribute="leading" secondItem="xkm-n9-JoV" secondAttribute="leadingMargin" id="TLX-hN-L8d"/>
-                                                <constraint firstItem="naZ-qn-SYK" firstAttribute="trailing" secondItem="HUL-u7-pmW" secondAttribute="trailing" id="dXZ-76-dVR"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="HUL-u7-pmW" secondAttribute="trailing" id="eQd-uy-y1R"/>
-                                                <constraint firstItem="HUL-u7-pmW" firstAttribute="height" secondItem="xkm-n9-JoV" secondAttribute="height" multiplier="0.5" id="wBf-eR-FFq"/>
-                                                <constraint firstItem="bYC-jW-4qe" firstAttribute="top" secondItem="HUL-u7-pmW" secondAttribute="bottom" constant="10" id="xoF-Hv-hKk"/>
+                                                <constraint firstItem="HUL-u7-pmW" firstAttribute="height" secondItem="xkm-n9-JoV" secondAttribute="height" multiplier="0.5" constant="-10" id="wBf-eR-FFq"/>
+                                                <constraint firstItem="bYC-jW-4qe" firstAttribute="top" secondItem="HUL-u7-pmW" secondAttribute="bottom" id="xoF-Hv-hKk"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <outlet property="badge" destination="naZ-qn-SYK" id="I3j-u2-JIF"/>
                                             <outlet property="descriptionLabel" destination="bYC-jW-4qe" id="Q4G-XF-RFn"/>
-                                            <outlet property="imageView" destination="naZ-qn-SYK" id="O4L-ZE-Jev"/>
                                             <outlet property="nameLabel" destination="HUL-u7-pmW" id="y8O-3d-BbZ"/>
                                         </connections>
                                     </tableViewCell>

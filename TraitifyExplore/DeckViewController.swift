@@ -34,17 +34,6 @@ class DeckViewController: UIViewController, UITableViewDelegate, UITableViewData
         let type = deck["personality_types"]![indexPath.row]
         cell.nameLabel.text = type["name"] as? String
         cell.descriptionLabel.text = type["description"] as? String
-        let badgeURL = type["badge"]!!["image_medium"] as! String
-        ImageCache.use(badgeURL) {image in
-            if let cellToUpdate = tableView.cellForRowAtIndexPath(indexPath) as? TypeCell {
-                cellToUpdate.imageView?.image = image
-                if badgeURL != cellToUpdate.badgeURL {
-                    cellToUpdate.badgeURL = badgeURL
-                    cellToUpdate.badge.image = image
-                    self.tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .None)
-                }
-            }
-        }
         let color = type["badge"]!!["color_1"] as! String
         cell.contentView.backgroundColor = UIColor(hexString: color)
         return cell
