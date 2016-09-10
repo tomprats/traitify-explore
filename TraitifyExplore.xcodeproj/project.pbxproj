@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8233166DAB0F0D92F419A4F /* Pods_TraitifyExplore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75494FC44B7B0A045D295099 /* Pods_TraitifyExplore.framework */; };
+		E27ED3D31D84A5D300547723 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27ED3D21D84A5D300547723 /* ImageCache.swift */; };
 		E2DED5141D83550200CAEC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED5131D83550200CAEC2B /* AppDelegate.swift */; };
-		E2DED5161D83550200CAEC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED5151D83550200CAEC2B /* ViewController.swift */; };
+		E2DED5161D83550200CAEC2B /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED5151D83550200CAEC2B /* ExploreViewController.swift */; };
 		E2DED5191D83550200CAEC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DED5171D83550200CAEC2B /* Main.storyboard */; };
 		E2DED51B1D83550200CAEC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DED51A1D83550200CAEC2B /* Assets.xcassets */; };
 		E2DED51E1D83550200CAEC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DED51C1D83550200CAEC2B /* LaunchScreen.storyboard */; };
+		E2DED5261D8358C600CAEC2B /* DeckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED5251D8358C600CAEC2B /* DeckCell.swift */; };
+		E2DED5281D835E3000CAEC2B /* Traitify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED5271D835E3000CAEC2B /* Traitify.swift */; };
+		E2DED52A1D835E6600CAEC2B /* DeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED5291D835E6600CAEC2B /* DeckViewController.swift */; };
+		E2DED52C1D835F1100CAEC2B /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DED52B1D835F1100CAEC2B /* TypeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C88A2CB7CC7BE6BB46DB6FE /* Pods-TraitifyExplore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraitifyExplore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TraitifyExplore/Pods-TraitifyExplore.debug.xcconfig"; sourceTree = "<group>"; };
+		75494FC44B7B0A045D295099 /* Pods_TraitifyExplore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraitifyExplore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4353E15814BDA98667B82A7 /* Pods-TraitifyExplore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraitifyExplore.release.xcconfig"; path = "Pods/Target Support Files/Pods-TraitifyExplore/Pods-TraitifyExplore.release.xcconfig"; sourceTree = "<group>"; };
+		E27ED3D21D84A5D300547723 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		E2DED5101D83550200CAEC2B /* TraitifyExplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraitifyExplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DED5131D83550200CAEC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2DED5151D83550200CAEC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2DED5151D83550200CAEC2B /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		E2DED5181D83550200CAEC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2DED51A1D83550200CAEC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2DED51D1D83550200CAEC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2DED51F1D83550200CAEC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DED5251D8358C600CAEC2B /* DeckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckCell.swift; sourceTree = "<group>"; };
+		E2DED5271D835E3000CAEC2B /* Traitify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traitify.swift; sourceTree = "<group>"; };
+		E2DED5291D835E6600CAEC2B /* DeckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckViewController.swift; sourceTree = "<group>"; };
+		E2DED52B1D835F1100CAEC2B /* TypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8233166DAB0F0D92F419A4F /* Pods_TraitifyExplore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E82C6C78BFB3057B12B15B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75494FC44B7B0A045D295099 /* Pods_TraitifyExplore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E2CD24A919FE81A34B06821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C88A2CB7CC7BE6BB46DB6FE /* Pods-TraitifyExplore.debug.xcconfig */,
+				A4353E15814BDA98667B82A7 /* Pods-TraitifyExplore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2DED5071D83550200CAEC2B = {
 			isa = PBXGroup;
 			children = (
 				E2DED5121D83550200CAEC2B /* TraitifyExplore */,
 				E2DED5111D83550200CAEC2B /* Products */,
+				9E2CD24A919FE81A34B06821 /* Pods */,
+				2E82C6C78BFB3057B12B15B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				E2DED5131D83550200CAEC2B /* AppDelegate.swift */,
-				E2DED5151D83550200CAEC2B /* ViewController.swift */,
+				E2DED5151D83550200CAEC2B /* ExploreViewController.swift */,
+				E2DED5251D8358C600CAEC2B /* DeckCell.swift */,
+				E2DED5291D835E6600CAEC2B /* DeckViewController.swift */,
+				E2DED52B1D835F1100CAEC2B /* TypeCell.swift */,
 				E2DED5171D83550200CAEC2B /* Main.storyboard */,
 				E2DED51A1D83550200CAEC2B /* Assets.xcassets */,
 				E2DED51C1D83550200CAEC2B /* LaunchScreen.storyboard */,
 				E2DED51F1D83550200CAEC2B /* Info.plist */,
+				E2DED5271D835E3000CAEC2B /* Traitify.swift */,
+				E27ED3D21D84A5D300547723 /* ImageCache.swift */,
 			);
 			path = TraitifyExplore;
 			sourceTree = "<group>";
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DED5221D83550200CAEC2B /* Build configuration list for PBXNativeTarget "TraitifyExplore" */;
 			buildPhases = (
+				BDE56EB3CA23619F3AE423B8 /* [CP] Check Pods Manifest.lock */,
 				E2DED50C1D83550200CAEC2B /* Sources */,
 				E2DED50D1D83550200CAEC2B /* Frameworks */,
 				E2DED50E1D83550200CAEC2B /* Resources */,
+				4D8F2D384533F2258752DBB4 /* [CP] Embed Pods Frameworks */,
+				5802CED38CB23B6DBEB9EACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +133,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Tomify;
 				TargetAttributes = {
 					E2DED50F1D83550200CAEC2B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NZ66FJ67S2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -130,12 +174,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D8F2D384533F2258752DBB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraitifyExplore/Pods-TraitifyExplore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5802CED38CB23B6DBEB9EACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TraitifyExplore/Pods-TraitifyExplore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE56EB3CA23619F3AE423B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2DED50C1D83550200CAEC2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2DED5161D83550200CAEC2B /* ViewController.swift in Sources */,
+				E2DED5261D8358C600CAEC2B /* DeckCell.swift in Sources */,
+				E27ED3D31D84A5D300547723 /* ImageCache.swift in Sources */,
+				E2DED52C1D835F1100CAEC2B /* TypeCell.swift in Sources */,
+				E2DED5281D835E3000CAEC2B /* Traitify.swift in Sources */,
+				E2DED52A1D835E6600CAEC2B /* DeckViewController.swift in Sources */,
+				E2DED5161D83550200CAEC2B /* ExploreViewController.swift in Sources */,
 				E2DED5141D83550200CAEC2B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,8 +273,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -222,8 +321,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -249,23 +350,32 @@
 		};
 		E2DED5231D83550200CAEC2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C88A2CB7CC7BE6BB46DB6FE /* Pods-TraitifyExplore.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TraitifyExplore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.tomify.TraitifyExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		E2DED5241D83550200CAEC2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4353E15814BDA98667B82A7 /* Pods-TraitifyExplore.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TraitifyExplore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.tomify.TraitifyExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -288,6 +398,7 @@
 				E2DED5241D83550200CAEC2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
